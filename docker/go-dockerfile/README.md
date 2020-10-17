@@ -2,7 +2,7 @@
 
 | Title    | Description                                                                          |
 | -------- | ------------------------------------------------------------------------------------ |
-| Pack     | Cloud Native Buildpack                                                               |
+| Docker   | Dockerfile
 | Cloud    | Local                                                                                |
 | Language | Go                                                                                   |
 | Docs     | [Docker](https://www.waypointproject.io/plugins/docker)                              |

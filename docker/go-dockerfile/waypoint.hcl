@@ -1,13 +1,13 @@
-project = "example-go"
+project = "example-go-dockerfile"
 
-app "example-go" {
+app "example-go-dockerfile" {
   labels = {
-    "service" = "example-go",
+    "service" = "example-go-dockerfile",
     "env" = "dev"
   }
 
   build {
-    use "pack" {}
+    use "docker" {}
   }
 
   deploy { 
